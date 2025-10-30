@@ -7,7 +7,7 @@ pipeline {
                 spec:
                   containers:
                   - name: node
-                    image: node:lts-alpine
+                    image: node:lts
                     command:
                     - sleep
                     args:
